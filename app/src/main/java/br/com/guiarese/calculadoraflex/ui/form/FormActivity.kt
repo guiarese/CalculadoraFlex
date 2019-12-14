@@ -38,6 +38,7 @@ class FormActivity : AppCompatActivity() {
         etGasAverage.addTextChangedListener(DecimalTextWatcher(etGasAverage, 1))
         etEthanolAverage.addTextChangedListener(DecimalTextWatcher(etEthanolAverage, 1))
         btCalculate.setOnClickListener {
+            saveCarData()
             val proximatela = Intent(this@FormActivity, ResultActivity::class.java)
             proximatela.putExtra("GAS_PRICE", etGasPrice.text.toString().toDouble())
             proximatela.putExtra("ETHANOL_PRICE", etEthanolPrice.text.toString().toDouble())
