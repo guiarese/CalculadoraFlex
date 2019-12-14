@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "960041388184",
+    "firebase_url": "https://calculadoraflex-guiarese.firebaseio.com",
+    "project_id": "calculadoraflex-guiarese",
+    "storage_bucket": "calculadoraflex-guiarese.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960041388184:android:1f8b6a361d3689035e68ed",
+        "android_client_info": {
+          "package_name": "br.com.guiarese.calculadoraflex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960041388184-6d6dl9n329v3h1ndofp1h3301f19qd41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.guiarese.calculadoraflex",
+            "certificate_hash": "80d7aba3af0f29d89e62871ba62e18dd32e7bd9f"
+          }
+        },
+        {
+          "client_id": "960041388184-mcd77q0letetr57gn4nkq38gg9i3e7p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRbSh1oNEMIdmtsA8mUNvjALjFTYVIrZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960041388184-mcd77q0letetr57gn4nkq38gg9i3e7p8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
