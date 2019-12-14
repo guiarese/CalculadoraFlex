@@ -16,6 +16,7 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
         mAuth = FirebaseAuth.getInstance()
+        mAuth.currentUser?.reload()
         btCreate.setOnClickListener {
             mAuth.createUserWithEmailAndPassword(
                 inputEmail.text.toString(),
